@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="./output.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+    
+</head>
+<body class="">
+  <nav class="flex justify-between items-center  h-16 sm:h-20 md:h-20 w-full fixed top-0 z-10 bg-black bg-opacity-50">
+    <a href="#" class="logo text-white font-bold sm:text-2xl md:text-5xl md:mx-5">Travel</a>
+    <div class="font-medium text-2xl text-white" id="menu-icon">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <ul class="flex mx-2 sm:text-sm md:text-lg text-white">
+      <li><a href="#" class="px-1 sm:px-4 md:px-8 hover:underline hover:scale-110 hover:duration-1000">Home</a></li>
+      <li><a href="#section2" class="px-1 sm:px-4 md:px-8  hover:underline">Places</a></li>
+      <li><a href="#section3" class=" sm:px-4 md:px-8  hover:underline">Videos</a></li>
+      <li><a href="#section4" class="px-1 sm:px-4 md:px-8 hover:underline">About</a></li>
+    </ul>
+  </nav>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide relative flex items-center">
+        <img class="w-full h-64 sm:h-80 md:h-96 lg:h-screen object-cover object-center" src="/images/pexels-pixabay-221471.jpg" alt="maldives"/>
+        <div class="absolute text-left ml-2 sm:ml-5 md:ml-6  mt-20 sm:mt-28 md:mt-32">
+          <h1 class="font-serif text-black font-bold sm:text-2xl md:text-5xl">Discover the World's Most<br> Beautiful Beaches!</h1>
+          <a href="#section1" type="button" class="sm:text-xl md:text-2xl rounded-md md:rounded-lg bg-gray-900  text-white text-center hover:bg-black hover:text-white h-6 sm:h-8 md:h-10 px-4 sm:px-6 md:px-8 sm:mt-4 md:mt-6 transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl">Explore</a>     
+        </div>
+
+      </div>
+      <div class="swiper-slide relative flex items-center">
+        <img class="w-full h-64 sm:h-80 md:h-96 lg:h-screen  object-cover object-center" src="/images/pexels-troy-squillaci-1303476-2521620.jpg" alt="grace bay"/>
+        <div class="absolute text-left ml-2 sm:ml-5 md:ml-6 mt-20 sm:mt-28 md:mt-32">
+          <h1 class="font-serif text-black font-bold sm:text-2xl md:text-5xl">Discover the World's Most<br> Beautiful Beaches!</h1>
+          <a href="#section1" type="button" class="sm:text-xl md:text-2xl rounded-md md:rounded-lg bg-gray-900  text-white text-center hover:bg-black hover:text-white h-6 sm:h-8 md:h-10 px-4 sm:px-6 md:px-8 sm:mt-4 md:mt-6 transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl">Explore</a>     
+        </div>
+      </div>
+      <div class="swiper-slide relative flex items-center">
+        <img class="w-full h-64 sm:h-80 md:h-96 lg:h-screen object-cover object-center" src="/images/pexels-msbln-5374152.jpg" alt="bali beach"/>
+        <div class="absolute text-lef ml-2 sm:ml-5 md:ml-6 mt-20 sm:mt-28 md:mt-32">
+          <h1 class="font-serif text-black font-bold sm:text-2xl md:text-5xl">Discover the World's Most<br> Beautiful Beaches!</h1>
+          <a href="#section1" type="button" class="sm:text-xl md:text-2xl rounded-md md:rounded-lg bg-gray-900  text-white text-center hover:bg-black hover:text-white h-6 sm:h-8 md:h-10 px-4 sm:px-6 md:px-8 sm:mt-4 md:mt-6 transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl">Explore</a>     
+        </div>
+      </div>
+    </div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="index.js"></script>
+<div class="text-center my-5 md:pt-28 md:pb-10 sm:text-2xl md:text-4xl font-bold underline" id="section1">
+  <h1>Unveil the Best Beaches Around the Globe</h1>
+</div>
+<div class="para- mx-2 sm:mx-5 md:mx-7">
+  <h2 class="font-serif font-bold sm:text-xl md:text-2xl">The Beauty of Beaches</h2>
+  <p class="sm:text-lg  mt-2 sm:mt-4 md:mt-6 md:text-xl">Beaches are nature's masterpiece, offering a serene escape from the hustle and bustle of everyday life. The soothing sound of waves, the feel of soft sand beneath your feet, and the endless horizon create a perfect setting for relaxation and adventure alike. Among the world's most stunning beaches, Maldives, Grace Bay, and Bali stand out as true paradises.<br>Beaches are nature's masterpiece, offering a serene escape from the hustle and bustle of everyday life.<br> <br> The soothing sound of waves, the feel of soft sand beneath your feet, and the endless horizon create a perfect setting for relaxation and adventure alike. Whether you're looking to unwind with a good book under the shade of a palm tree or seeking the thrill of water sports, beaches provide an idyllic setting for both leisure and excitement. Among the world's most stunning beaches, Maldives , Grace bay , and Bali stand out as true paradises.</p>
+</div>
+
+<!-- Places -->
+
+<div class="mx-2 sm:mx-5 md:mx-7 flex flex-col md:flex-row justify-between items-center  md:mt-10" id="section2">
+  <div>
+    <h3 class="font-serif font-bold text-left sm:text-xl md:text-2xl mt-2 sm:mt-4 md:mt-6">Maldives Beach</h3>
+    <p class="sm:text-lg md:text-xl mt-2 sm:mt-4 md:mt-6">
+      The Maldives, with its crystal-clear turquoise waters and pristine white sands, is a dream destination for many. 
+      The beauty of the Maldives beach is unparalleled, where coral reefs teem with vibrant marine life, making it a haven for snorkelers and divers. <br>
+      <br>
+      The tranquil environment and luxurious overwater bungalows offer a unique and unforgettable experience. 
+      Picture-perfect sunsets and the gentle lapping of waves provide an idyllic backdrop for romantic strolls along the shore. 
+      Whether lounging on the beach, exploring the underwater world, or enjoying a private dinner by the sea, the Maldives promises a slice of heaven on earth.
+    </p>
+  </div>
+  <img src="/images/pexels-asadphoto-3601425.jpg" class="flex h-36 w-[250px] sm:h-60 sm:w-[250px] md:h-56 md:w-[250px] lg:h-72 lg:w-[250px] mt-6 mb-6 md:mt-16 md:ml-4 lg:mx-12 md:mr-4 hover:border-x-4 border-2 md:border-4 border-gray-500 shadow-lg rounded-lg hover:border-black hover:shadow-xl transition-all duration-1000 "/>
+</div>
+
+<div class="mx-2 sm:mx-5 md:mx-7 flex flex-col md:flex-row justify-between items-center md:mt-10">
+  <div>
+   <h3 class="font-serif font-bold sm:text-xl md:text-2xl mt-2 sm:mt-4 md:mt-6">Grace Bay Beach</h3>
+   <p class="sm:text-lg md:xl mt-2 sm:mt-4 md:mt-6">Grace Bay Beach, located on the island of Providenciales in the Turks and Caicos Islands, is often hailed as one of the most beautiful beaches in the world. Stretching over 12 miles along the northeastern coast of the island, Grace Bay Beach is renowned for its pristine white sand and crystal-clear turquoise waters. This stunning beach is part of the Princess Alexandra National Park, ensuring its natural beauty is preserved and protected.<br><br>The sand at Grace Bay Beach is incredibly soft and powdery, a result of the finely crushed coral and shells that make up the shoreline. The beach's gentle slope into the water makes it perfect for swimming, wading, and other water activities. The calm, shallow waters are ideal for families with young children, offering a safe and enjoyable environment for everyone.</p>
+   </div>
+ <img src="/images/pexels-ella-ragasa-1098642056-20899306.jpg" class="flex h-36 w-[250px] sm:h-60 sm:w-[250px] md:h-56 md:w-[250px] lg:h-72 lg:w-[250px] mt-6 mb-6 md:mt-16 md:ml-4 lg:mx-12 md:mr-4 hover:border-x-4 border-2 md:border-4 border-gray-500 shadow-lg rounded-lg hover:border-black hover:shadow-xl transition-all duration-300 "/>
+</div>
+<div class="mx-2 sm:mx-5 md:mx-7 flex flex-col md:flex-row justify-between items-center  md:mt-10">
+  <div>
+    <h3 class="font-serif font-bold text-left sm:text-xl md:text-2xl mt-2 sm:mt-4 md:mt-6">Bali Beach</h3>
+    <p class="sm:text-lg md:text-xl mt-2 sm:mt-4 md:mt-6">
+      Bali's beaches are a tropical paradise, renowned for their breathtaking beauty, vibrant culture, and diverse activities. Kuta Beach, one of the most famous beaches in Bali, is a bustling hub of activity. Known for its long stretch of golden sand and stunning sunsets, Kuta Beach attracts surfers from around the world with its consistent waves and lively atmosphere.<br><br> The beach is lined with numerous bars, restaurants, and shops, creating a vibrant nightlife scene that caters to both locals and tourists. Visitors can enjoy a day of sunbathing and surfing, followed by an evening of dancing and socializing in the many beachside clubs.
+    </p>
+  </div>
+  <img src="/images/pexels-tomfisk-1532435.jpg" class="flex h-36 w-[250px] sm:h-60 sm:w-[250px] md:h-56 md:w-[250px] lg:h-72 lg:w-[250px] mt-6 mb-6 md:mt-16 md:ml-4 lg:mx-12 md:mr-4 hover:border-x-4 border-2 md:border-4 border-gray-500 shadow-lg rounded-lg hover:border-black hover:shadow-xl transition-all duration-1000 "/>
+</div>
+
+<!-- Videos  -->
+
+<div class="text-center my-3 md:pt-28 md:mb-10 sm:text-2xl md:text-4xl font-bold  md:mx-8 underline" id="section3">
+  <h1>Experience Beaches<br>Through Stunning Videos</h1>
+  <div class="container px-2 sm:px-6 md:px-10 mt-7 sm:mt-10 md:mt-28 flex-col items-center md:mx-16">
+    <div class="box relative w-[250px] h-[250px] overflow-hidden">
+      <video src="/videos/editevedio.mp4" class="w-full h-full shadow-lg transform hover:scale-110  hover:shadow-xl transition-all  duration-1000" controls></video>
+      <div class="absolute sm:bottom-0  p-2 bg-black bg-opacity-50 text-white w-full">
+        <h1 class="text-sm font-serif sm:text-lg md:xl">Maldives</h1>
+        <i class='bx bx-right-arrow-alt text-2xl'></i>
+      </div>
+    </div>
+    <div class="box relative w-[250px] h-[250px] overflow-hidden my-5 sm:my-7 md:my-10">
+      <video src="/videos/clip.2.mp4" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-1000" controls></video>
+      <div class="absolute sm:bottom-0  p-2 bg-black bg-opacity-50 text-white w-full">
+        <h1 class="text-sm font-serif sm:text-lg md:xl">Grace Bay</h1>
+        <i class='bx bx-right-arrow-alt text-2xl'></i>
+      </div>
+    </div>
+    <div class="box relative w-[250px] h-[250px] overflow-hidden items-center ">
+      <video src="/videos/clip.3.mp4" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-1000" controls></video>
+      <div class="absolute sm:bottom-0 p-2 bg-black bg-opacity-50 text-white w-full">
+        <h1 class="text-sm font-serif sm:text-lg md:xl">Bali</h1>
+        <i class='bx bx-right-arrow-alt text-2xl'></i>
+      </div>
+    </div>
+</div>
+</div>
+
+<!-- About  -->
+<h1 class="text-center my-5 md:pt-28 md:pb-5 sm:text-2xl md:text-4xl font-bold underline">About Us</h1>
+ <div class="flex flex-col md:flex-row justify-between items-center  md:mb-20  md:mt-7">
+    <div class="about mx-2 sm:mx-5 md:mx-7" id="section4">
+      <p class="sm:text-lg md:text-xl mt-2 sm:mt-4 md:mt-6 ">Welcome to our travel beach website! We are passionate beach enthusiasts dedicated to sharing the beauty and excitement of the world's most stunning coastal destinations. Whether you're looking for a serene spot to relax, an adventurous location for water sports, or a picturesque beach to explore, our site provides insights and inspiration to help you plan your perfect beach getaway. Dive in and discover your next beach adventure with us!<br>
+      <br>At our website, we believe that every beach has its unique charm and story. From hidden gems to popular hotspots, we cover a diverse range of destinations to cater to all types of beach lovers. Join us on this journey as we explore the sun-kissed shores and crystal-clear waters of the world's best beaches. Whether you're a seasoned traveler or just looking for a new place to unwind, we're here to guide you to your perfect beach escape.</p>
+    </div>
+ <img src="/images/pexels-fabianwiktor-994605 (1).jpg" class="flex h-36 w-[250px] sm:h-60 sm:w-[250px] md:h-56 md:w-[250px] lg:h-72 lg:w-[250px] mt-6 mb-6 md:mt-16 md:ml-4 lg:mx-12 md:mr-4 hover:border-x-4 border-2 md:border-4 border-gray-500 shadow-lg rounded-lg hover:border-black hover:shadow-xl transition-all duration-1000 "/>
+  </div> 
+  </div>
+
+   <!-- Footer -->
+   <footer class="mt-10 p-2 sm:p-5 bg-gray-900 text-center">
+    <h3 class="sm:text-2xl md:text-4xl text-gray-200">Travel</h3>
+    <p class="sm:text-lg md:text-xl text-gray-400">Your ultimate guide to explore beautiful beaches</p>
+    <p class="sm:text-lg md:text-xl text-gray-400">© 2024 Travel Website.</p>
+  </footer>
+
+</body> 
+</html>
